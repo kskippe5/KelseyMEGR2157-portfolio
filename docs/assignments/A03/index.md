@@ -3,11 +3,6 @@
 
 <head>
 
-
-<!-- ===================================================== -->
-<!-- TITLE -->
-<!-- ===================================================== -->
-
 <h1>Parametric and FEA Design</h1>
 
 <p>
@@ -22,10 +17,6 @@
     <strong>Date:</strong> 9.9.26
 </p>
 
-
-<!-- ===================================================== -->
-<!-- OBJECTIVE -->
-<!-- ===================================================== -->
 
 <h2>OBJECTIVE</h2>
 
@@ -82,11 +73,6 @@
 </p>
 
 
-
-<!-- ===================================================== -->
-<!-- ANALYZE -->
-<!-- ===================================================== -->
-
 <h2>ANALYZE</h2>
 
 
@@ -117,7 +103,6 @@ A = 0.19635 in²
 
 <div class="picture">
 
-    <!-- INSERT CROSS SECTION SKETCH -->
 
 <img src="<img width="1025" height="634" alt="circlesketchA3" src="https://github.com/user-attachments/assets/1c72d264-ad5f-41b3-ba8d-3dbc7fb687aa" />
 "
@@ -180,7 +165,6 @@ L = 44.18 in
 
 <div class="picture">
 
-    <!-- INSERT HAND CALCULATION PICTURE -->
 
 <img src="<img width="1025" height="634" alt="image" src="https://github.com/user-attachments/assets/dc01ef1d-adfd-4598-8db1-84b9cd442822" />
 "
@@ -289,7 +273,6 @@ n ≈ 19.6
 
 <div class="picture">
 
-    <!-- INSERT FUSION PARAMETER SCREENSHOT -->
 
 <img src="<img width="897" height="356" alt="Screenshot 2026-09-10 031456" src="https://github.com/user-attachments/assets/1397ff15-3249-4d14-91aa-5ae591274b97" />
 "
@@ -325,7 +308,6 @@ Length = MaxDeflection × Area × E / Load
 
 <div class="picture">
 
-    <!-- INSERT CAD MODEL -->
 
 <img src="<img width="1280" height="722" alt="extrudeA3" src="https://github.com/user-attachments/assets/f9321daa-180b-4e47-ba8d-f07eb5337649" />
 "
@@ -339,10 +321,6 @@ Length = MaxDeflection × Area × E / Load
 
 
 
-<!-- ===================================================== -->
-<!-- FEA ANALYSIS -->
-<!-- ===================================================== -->
-
 <h3>FEA Setup</h3>
 
 <p>
@@ -355,7 +333,6 @@ Length = MaxDeflection × Area × E / Load
 
 <div class="picture">
 
-    <!-- INSERT MATERIAL SCREENSHOT -->
 
  <img src="<img width="701" height="316" alt="Screenshot 2026-09-10 031525" src="https://github.com/user-attachments/assets/8bb74101-2407-4984-800c-ae0f69890a03" />
 "
@@ -370,7 +347,6 @@ Length = MaxDeflection × Area × E / Load
 
 <div class="picture">
 
-    <!-- INSERT FEA FIXTURE AND LOAD -->
 
   <img src="<img width="504" height="304" alt="Screenshot 2026-09-10 021935" src="https://github.com/user-attachments/assets/ab96f917-8a0f-4ddc-97f1-07cc3ed958f8">
   
@@ -384,10 +360,6 @@ Length = MaxDeflection × Area × E / Load
 </div>
 
 
-
-<!-- ===================================================== -->
-<!-- DECIDE -->
-<!-- ===================================================== -->
 
 <h2>DECIDE</h2>
 
@@ -547,10 +519,6 @@ n = 7.84
 
 
 
-<!-- ===================================================== -->
-<!-- COMMUNICATE -->
-<!-- ===================================================== -->
-
 <h2>COMMUNICATE</h2>
 
 
@@ -676,10 +644,6 @@ n = 7.84
 </p>
 
 
-
-<!-- ===================================================== -->
-<!-- CAD DOWNLOAD -->
-<!-- ===================================================== -->
 
 <h3>CAD File</h3>
 

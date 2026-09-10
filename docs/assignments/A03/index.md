@@ -413,7 +413,7 @@ Length = MaxDeflection × Area × E / Load
 
 <div class="equation">
 
-δ<sub>FEA</sub> = [INSERT FEA VALUE] in
+δ<sub>FEA</sub> = 0.24 in
 
 </div>
 

@@ -98,19 +98,19 @@
 
 <div class="equation">
 
-    A = πd² / 4
+A = πd² / 4
 
 </div>
 
 <div class="equation">
 
-    A = π(0.500 in)² / 4
+A = π(0.500 in)² / 4
 
 </div>
 
 <div class="equation">
 
-    A = 0.19635 in²
+A = 0.19635 in²
 
 </div>
 
@@ -119,12 +119,12 @@
 
     <!-- INSERT CROSS SECTION SKETCH -->
 
-    <img src="<img width="1025" height="634" alt="circlesketchA3" src="https://github.com/user-attachments/assets/1c72d264-ad5f-41b3-ba8d-3dbc7fb687aa" />
+<img src="<img width="1025" height="634" alt="circlesketchA3" src="https://github.com/user-attachments/assets/1c72d264-ad5f-41b3-ba8d-3dbc7fb687aa" />
 "
          alt="Circular cross section">
 
-    <p>
-        Figure 2. Circular cross section used for the bar.
+<p>
+        Figure 1. Circular cross section used for the bar.
     </p>
 
 </div>
@@ -138,7 +138,7 @@
 
 <div class="equation">
 
-    δ = FL / AE
+ δ = FL / AE
 
 </div>
 
@@ -148,7 +148,7 @@
 
 <div class="equation">
 
-    L = δAE / F
+L = δAE / F
 
 </div>
 
@@ -159,7 +159,7 @@
 
 <div class="equation">
 
-    L =
+L =
     (0.009 in)(0.19635 in²)(10,000,000 psi)
     / (400 lbf)
 
@@ -167,7 +167,7 @@
 
 <div class="equation">
 
-    L = 44.18 in
+L = 44.18 in
 
 </div>
 
@@ -182,12 +182,12 @@
 
     <!-- INSERT HAND CALCULATION PICTURE -->
 
-    <img src="<img width="1025" height="634" alt="image" src="https://github.com/user-attachments/assets/dc01ef1d-adfd-4598-8db1-84b9cd442822" />
+<img src="<img width="1025" height="634" alt="image" src="https://github.com/user-attachments/assets/dc01ef1d-adfd-4598-8db1-84b9cd442822" />
 "
          alt="Hand calculations">
 
-    <p>
-        Figure 3. Hand calculations for the initial design.
+<p>
+        Figure 2. Hand calculations for the initial design.
     </p>
 
 </div>
@@ -201,25 +201,25 @@
 
 <div class="equation">
 
-    σ = F / A
+σ = F / A
 
 </div>
 
 <div class="equation">
 
-    σ = 400 lbf / 0.19635 in²
+σ = 400 lbf / 0.19635 in²
 
 </div>
 
 <div class="equation">
 
-    σ = 2037 psi
+σ = 2037 psi
 
 </div>
 
 <div class="equation">
 
-    σ = 2.04 ksi
+σ = 2.04 ksi
 
 </div>
 
@@ -232,19 +232,19 @@
 
 <div class="equation">
 
-    n = S<sub>y</sub> / σ
+n = S<sub>y</sub> / σ
 
 </div>
 
 <div class="equation">
 
-    n = 40 ksi / 2.04 ksi
+n = 40 ksi / 2.04 ksi
 
 </div>
 
 <div class="equation">
 
-    n ≈ 19.6
+n ≈ 19.6
 
 </div>
 
@@ -291,12 +291,12 @@
 
     <!-- INSERT FUSION PARAMETER SCREENSHOT -->
 
-    <img src="<img width="897" height="356" alt="Screenshot 2026-09-10 031456" src="https://github.com/user-attachments/assets/1397ff15-3249-4d14-91aa-5ae591274b97" />
+<img src="<img width="897" height="356" alt="Screenshot 2026-09-10 031456" src="https://github.com/user-attachments/assets/1397ff15-3249-4d14-91aa-5ae591274b97" />
 "
          alt="Fusion parameters">
 
-    <p>
-        Figure 4. Parametric equations and user parameters in Fusion.
+<p>
+        Figure 3. Parametric equations and user parameters in Fusion.
     </p>
 
 </div>
@@ -311,7 +311,7 @@
 
 <div class="equation">
 
-    Length = MaxDeflection × Area × E / Load
+Length = MaxDeflection × Area × E / Load
 
 </div>
 
@@ -327,12 +327,12 @@
 
     <!-- INSERT CAD MODEL -->
 
-    <img src="<img width="1280" height="722" alt="extrudeA3" src="https://github.com/user-attachments/assets/f9321daa-180b-4e47-ba8d-f07eb5337649" />
+<img src="<img width="1280" height="722" alt="extrudeA3" src="https://github.com/user-attachments/assets/f9321daa-180b-4e47-ba8d-f07eb5337649" />
 "
          alt="Completed CAD model">
 
-    <p>
-        Figure 5. Completed parametric CAD model.
+<p>
+        Figure 4. Completed parametric CAD model.
     </p>
 
 </div>
@@ -357,12 +357,12 @@
 
     <!-- INSERT MATERIAL SCREENSHOT -->
 
-    <img src="<img width="701" height="316" alt="Screenshot 2026-09-10 031525" src="https://github.com/user-attachments/assets/8bb74101-2407-4984-800c-ae0f69890a03" />
+ <img src="<img width="701" height="316" alt="Screenshot 2026-09-10 031525" src="https://github.com/user-attachments/assets/8bb74101-2407-4984-800c-ae0f69890a03" />
 "
          alt="Material assignment">
 
-    <p>
-        Figure 6. Aluminum 6061 material assignment.
+<p>
+        Figure 5. Aluminum 6061 material assignment.
     </p>
 
 </div>
@@ -372,13 +372,13 @@
 
     <!-- INSERT FEA FIXTURE AND LOAD -->
 
-    <img src="<img width="504" height="304" alt="Screenshot 2026-09-10 021935" src="https://github.com/user-attachments/assets/ab96f917-8a0f-4ddc-97f1-07cc3ed958f8"
-         alt="FEA setup">
-    <img src="<img width="792" height="476" alt="Screenshot 2026-09-10 022701" src="https://github.com/user-attachments/assets/fd06cffd-91ab-42ab-a8df-02fe35210e39"
+  <img src="<img width="504" height="304" alt="Screenshot 2026-09-10 021935" src="https://github.com/user-attachments/assets/ab96f917-8a0f-4ddc-97f1-07cc3ed958f8">
+  
+<img src="<img width="792" height="476" alt="Screenshot 2026-09-10 022701" src="https://github.com/user-attachments/assets/fd06cffd-91ab-42ab-a8df-02fe35210e39"
          alt="FEA setup">
 
-    <p>
-        Figure 7. FEA fixture and loading conditions.
+ <p>
+        Figure 6 and 7. FEA fixture and loading conditions.
     </p>
 
 </div>
@@ -411,13 +411,8 @@
 
 <div class="picture">
 
-    <!-- INSERT FEA DEFLECTION MAP -->
-
-    <img src="<img width="1280" height="752" alt="Screenshot 2026-09-10 030134" src="https://github.com/user-attachments/assets/6cf34b75-694e-43ac-9c75-1732c1074156"
-         alt="FEA displacement map">
-
-    <p>
-        Figure 9. FEA axial displacement result.
+<img src="<img width="1280" height="752" alt="Screenshot 2026-09-10 030134" src="https://github.com/user-attachments/assets/6cf34b75-694e-43ac-9c75-1732c1074156">
+        Figure 8. FEA axial displacement result.
     </p>
 
 </div>
@@ -435,7 +430,7 @@
 
 <div class="equation">
 
-    δ<sub>hand</sub> = 0.009 in
+δ<sub>hand</sub> = 0.009 in
 
 </div>
 
@@ -446,7 +441,7 @@
 
 <div class="equation">
 
-    δ<sub>FEA</sub> = [INSERT FEA VALUE] in
+δ<sub>FEA</sub> = [INSERT FEA VALUE] in
 
 </div>
 
@@ -455,7 +450,7 @@
 
 <div class="equation">
 
-    Percent Difference =
+Percent Difference =
     |δ<sub>FEA</sub> − δ<sub>hand</sub>|
     / δ<sub>hand</sub> × 100%
 
@@ -464,7 +459,7 @@
 
 <div class="equation">
 
-    Percent Difference = [INSERT VALUE] %
+Percent Difference = 77 %
 
 </div>
 
@@ -473,15 +468,7 @@
 
 <div class="picture">
 
-    <!-- INSERT VON MISES STRESS MAP -->
-
-    <img src="<img width="1001" height="518" alt="Screenshot 2026-09-10 024911" src="https://github.com/user-attachments/assets/492990f5-3ff2-42b0-95e2-3f0517373b9c"
-         alt="Von Mises stress map">
-
-    <p>
-        Figure 10. Von Mises stress distribution from FEA.
-    </p>
-
+<img src="<img width="1001" height="518" alt="Screenshot 2026-09-10 024911" src="https://github.com/user-attachments/assets/492990f5-3ff2-42b0-95e2-3f0517373b9c">
 </div>
 
 
@@ -491,7 +478,7 @@
 
 <div class="equation">
 
-    σ<sub>VM,max</sub> = [INSERT VALUE] ksi
+σ<sub>VM,max</sub> = 23.363 ksi
 
 </div>
 
@@ -500,19 +487,19 @@
 
 <div class="equation">
 
-    n = S<sub>y</sub> / σ<sub>VM,max</sub>
+n = S<sub>y</sub> / σ<sub>VM,max</sub>
 
 </div>
 
 <div class="equation">
 
-    n = 40 ksi / [INSERT STRESS]
+n = 40 ksi / 5.10 ksi
 
 </div>
 
 <div class="equation">
 
-    n = [INSERT SAFETY FACTOR]
+n = 7.84
 
 </div>
 
@@ -522,7 +509,7 @@
 
 <div class="equation">
 
-    σ<sub>max</sub> = K<sub>t</sub> σ<sub>nominal</sub>
+σ<sub>max</sub> = K<sub>t</sub> σ<sub>nominal</sub>
 
 </div>
 
@@ -649,7 +636,7 @@
 
 <div class="equation">
 
-    δ = FL / AE
+δ = FL / AE
 
 </div>
 
@@ -703,7 +690,7 @@
 
 <p>
 
-    <a href="(https://a360.co/4h0gN2D)">
+<a href="(https://a360.co/4h0gN2D)">
         Download CAD File
     </a>
 

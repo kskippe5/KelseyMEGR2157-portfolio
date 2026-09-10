@@ -40,20 +40,6 @@
 </p>
 
 
-<div class="picture">
-
-    <!-- INSERT ASSIGNMENT FIGURE -->
-
-    <img src="images/assignment-figure.png"
-         alt="Assignment figure">
-
-    <p>
-        Figure 1. Original assignment geometry and loading condition.
-    </p>
-
-</div>
-
-
 <h3>Design Requirements</h3>
 
 <p>

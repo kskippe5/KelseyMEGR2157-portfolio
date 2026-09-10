@@ -3,67 +3,6 @@
 
 <head>
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>MEGR 2156 - Parametric and FEA Design</title>
-
-    <style>
-
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 40px;
-            line-height: 1.6;
-            color: black;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        h2 {
-            margin-top: 60px;
-        }
-
-        h3 {
-            margin-top: 35px;
-        }
-
-        .picture {
-            text-align: center;
-            margin: 30px 0;
-        }
-
-        .picture img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .picture p {
-            font-style: italic;
-        }
-
-        .equation {
-            text-align: center;
-            font-size: 20px;
-            margin: 25px 0;
-        }
-
-        .placeholder {
-            text-align: center;
-            margin: 30px 0;
-        }
-
-    </style>
-
-</head>
-
-
-<body>
-
 
 <!-- ===================================================== -->
 <!-- TITLE -->

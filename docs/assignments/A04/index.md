@@ -113,6 +113,8 @@ Feature 2: δ= 0.28mm
 
 Requirement: δ <= 0.30mm
 
+In total, this assigment took around 4 hours, mostly because I kept getting distracted. I skipped over the material requirement in the instructions and was setback a bit since I chose steel to begin with.
+
 **Multiview Drawing**
 <img width="830" height="592" alt="A4 CAD drawing" src="https://github.com/user-attachments/assets/7e6b5184-30b4-40fb-9a5c-2896fca841d2" />
 

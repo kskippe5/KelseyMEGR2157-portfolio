@@ -92,11 +92,13 @@ Known values:
 **Feature B — Strength**
 
 <img width="831" height="180" alt="IMG_6716" src="https://github.com/user-attachments/assets/7422ef8a-2655-4353-ab94-bdd8cd387b76" />
+
 Teeny calculations for strength of Feature B
 
 **Feature B — Stiffness**
 
 <img width="327" height="180" alt="IMG_6720" src="https://github.com/user-attachments/assets/3a42943b-9fcb-4944-8b32-dafa2d8a77d1" />
+
 More teeny calculations for stress of Feature B
 
 ---
@@ -135,6 +137,7 @@ Because the load is centered:
 **Feature C — Strength**
 
 <img width="715" height="331" alt="IMG_6717" src="https://github.com/user-attachments/assets/227376cd-1bbe-4228-a13f-2f59e9480cbf" />
+
 Strength calculations for Feature C
 
 **Feature C — Stiffness**

@@ -291,3 +291,6 @@ The linkage will be made from 6061 aluminum. Its Feature A connection will use t
 **Lessons Learned**
 
 This assignment demonstrated how different portions of a mechanical component can be analyzed using different engineering models. Feature A was modeled as a cantilever beam, Feature B as an axially loaded member, and Feature C as a simply supported beam with a concentrated center load. Strength calculations were used to determine minimum dimensions, while stiffness calculations were used to evaluate deformation. The linkage analysis also demonstrated the importance of selecting appropriate fits and tolerances when connecting mechanical components. The analytical results were then used to make defensible design decisions and communicate the final design through CAD and engineering drawings.
+
+**Total Time**
+This assignment took me about 4 hours to do, which included bumps in the road and creating the CAD file. I'm going to sleep.

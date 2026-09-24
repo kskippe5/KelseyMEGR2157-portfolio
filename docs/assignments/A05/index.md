@@ -61,7 +61,9 @@ Assumptions:
 **Feature A — Strength**
 
 <img width="921" height="403" alt="IMG_6715" src="https://github.com/user-attachments/assets/1fcdfe2a-6fa9-4052-9bd7-1e962ac6ca37" />
+
 Strength calculations for Feature A
+
 **Feature A — Stiffness**
 
 <img width="337" height="369" alt="IMG_6719" src="https://github.com/user-attachments/assets/bc79207d-01b4-42e3-ae41-71313c87b30c" />

@@ -34,6 +34,8 @@ Allowable stress:
 
 Feature A is modeled as a cantilever beam.
 
+<img width="578" height="293" alt="Screenshot 2026-09-24 035117" src="https://github.com/user-attachments/assets/b81e5e80-3bfa-40d9-a323-d7a65166df61" />
+
 Known values:
 
 - `F = 500 lb`
@@ -58,68 +60,20 @@ Assumptions:
 
 **Feature A — Strength**
 
-Required section modulus:
-
-`Z = SF(W)(LA) / (2Sy)`
-
-`Z = (3.5)(1000)(2.4964) / [2(40,000)]`
-
-`Z = 0.10922 in^3`
-
-For a circular cross section:
-
-`Z = πr^3 / 4`
-
-Solving for radius:
-
-`r = (4Z / π)^(1/3)`
-
-`r = [4(0.10922) / π]^(1/3)`
-
-`r = 0.518 in`
-
-Therefore:
-
-`d = 2r`
-
-`d = 1.036 in`
-
-**Feature A results:**
-
-- `Z = 0.10922 in^3`
-- `r = 0.518 in`
-- `d = 1.036 in`
-
+<img width="921" height="403" alt="IMG_6715" src="https://github.com/user-attachments/assets/1fcdfe2a-6fa9-4052-9bd7-1e962ac6ca37" />
+Strength calculations for Feature A
 **Feature A — Stiffness**
 
-For a cantilever beam with an end load:
+<img width="337" height="369" alt="IMG_6719" src="https://github.com/user-attachments/assets/bc79207d-01b4-42e3-ae41-71313c87b30c" />
 
-`δA = FLA^3 / (3EI)`
-
-For a circular section:
-
-`I = πr^4 / 4`
-
-`I = π(0.518)^4 / 4`
-
-`I ≈ 0.0566 in^4`
-
-Therefore:
-
-`δA = (500)(2.4964)^3 / [3(9.99 × 10^6)(0.0566)]`
-
-`δA ≈ 0.0092 in`
-
-**Feature A final results:**
-
-- `dA = 1.036 in`
-- `δA ≈ 0.0092 in`
-
+Stress calculations for Feature A
 ---
 
 **Feature B — Axially Loaded Bar**
 
 Feature B is modeled as an axially loaded member.
+
+<img width="401" height="230" alt="Screenshot 2026-09-24 041855" src="https://github.com/user-attachments/assets/e87ea198-1e25-4354-ae6e-ba9794a94d6d" />
 
 Known values:
 
@@ -135,44 +89,13 @@ Known values:
 
 **Feature B — Strength**
 
-Axial stress is:
-
-`σ = P / A`
-
-Therefore:
-
-`A = P / σ_allow`
-
-`A = 1000 / 11,428.6`
-
-`A = 0.0875 in^2`
-
-Therefore, the minimum required cross-sectional area is:
-
-`A_B = 0.0875 in^2`
-
-For a rectangular section:
-
-`A = bh`
-
-Therefore:
-
-`bh = 0.0875 in^2`
+<img width="831" height="180" alt="IMG_6716" src="https://github.com/user-attachments/assets/7422ef8a-2655-4353-ab94-bdd8cd387b76" />
+Teeny calculations for strength of Feature B
 
 **Feature B — Stiffness**
 
-Axial deformation is:
-
-`δB = PLB / (AE)`
-
-`δB = (1000)(1.4) / [(0.0875)(9.99 × 10^6)]`
-
-`δB ≈ 0.00160 in`
-
-**Feature B final results:**
-
-- `AB = 0.0875 in^2 minimum`
-- `δB ≈ 0.00160 in`
+<img width="327" height="180" alt="IMG_6720" src="https://github.com/user-attachments/assets/3a42943b-9fcb-4944-8b32-dafa2d8a77d1" />
+More teeny calculations for stress of Feature B
 
 ---
 
@@ -209,61 +132,18 @@ Because the load is centered:
 
 **Feature C — Strength**
 
-Maximum bending moment:
-
-`Mmax = PL / 4`
-
-`Mmax = (1000)(0.498) / 4`
-
-`Mmax = 124.5 lb·in`
-
-Required section modulus:
-
-`Z = Mmax / σ_allow`
-
-`Z = 124.5 / 11,428.6`
-
-`Z = 0.01089 in^3`
-
-For a rectangular cross section:
-
-`Z = bh^2 / 6`
-
-Therefore:
-
-`bh^2 / 6 = 0.01089`
-
-`bh^2 = 0.06536`
-
-Therefore, the minimum Feature C strength requirement is:
-
-`bh^2 = 0.06536`
+<img width="715" height="331" alt="IMG_6717" src="https://github.com/user-attachments/assets/227376cd-1bbe-4228-a13f-2f59e9480cbf" />
+Strength calculations for Feature C
 
 **Feature C — Stiffness**
 
-For a simply supported beam with a concentrated center load:
-
-`δC = PLC^3 / (48EI)`
-
-For a rectangular cross section:
-
-`I = bh^3 / 12`
-
-Therefore:
-
-`δC = PLC^3 / (4Ebh^3)`
-
-Substituting the known values:
-
-`δC = (1000)(0.498)^3 / [4(9.99 × 10^6)bh^3]`
-
-`δC = 1.552 × 10^-9 / (bh^3) in`
+<img width="330" height="376" alt="IMG_6721" src="https://github.com/user-attachments/assets/e9dcdbbb-501b-4b2a-8c4f-8c0527cf8da5" />
 
 The supplied assignment material does not provide a numerical allowable-deflection value, so the final values of `bC` and `hC` cannot be uniquely determined from the available information.
 
 The required strength relationship remains:
 
-`bh^2 = 0.06536`
+bh^2 = 0.06536
 
 ---
 

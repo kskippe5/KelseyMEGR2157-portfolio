@@ -7,16 +7,81 @@ The design is evaluated using Aluminum 6061 as the selected material. The analys
 ## Analyze
 The bracket was analyzed by first identifying the important dimensions and loading relationships within the linkage. The primary geometry used for the analysis includes:
 
-\(l_A = 2.4964\)
-\(l_B = 1.400\) upward and \(1.036\) horizontal
-\(l_C = 0.498\)
+lA = 2.4964 in
+lB = 1.400 upward and 1.036 horizontal
+lC = 0.498
 
 The selected material for the bracket is Aluminum 6061. The material properties used for the engineering analysis are:
 
-Yield strength: \(S_y = 40,000\ psi\)
-Elastic modulus: \(E = 68.9\ GPa\)
+Yield strength: Sy = 40,000psi
+Elastic modulus: E = 68.9 GPa
 
 The geometry and loading were considered using the linkage configuration provided for the assignment. The linkage section was analyzed using the requirements provided in Appendix E. The dimensions of the individual members and their orientations were used to establish the loading and reaction relationships acting on the bracket.
+
+Stress Analysis
+
+The bracket must withstand the forces transmitted through the linkage without exceeding the allowable stress of the selected material. The relevant loading conditions were identified from the linkage geometry and represented using free-body diagrams and multiview sketches.
+
+The basic normal-stress relationship is
+
+σ = F/A
+
+where
+
+σ = normal stress
+F = applied force
+A = cross-sectional area
+
+For regions subjected to shear, the average shear stress can be calculated using
+
+τ = V/A
+
+where
+
+τ = average shear stress
+V = shear force
+A = shear area
+
+The stress calculations were used to identify areas of the bracket that experience the greatest loading. Particular attention was given to the connection regions and areas where the geometry changes, since these locations can experience higher stresses.
+
+The material yield strength of \(40,000\ psi\) provides the strength limit used when evaluating the design. The calculated stresses must remain below the allowable stress for the design to be acceptable.
+
+Stiffness Analysis
+
+In addition to strength, the bracket was evaluated for stiffness. A bracket can have stresses below the material yield strength and still experience excessive deformation, so both requirements must be considered.
+
+The stiffness behavior is related to the elastic modulus
+
+E = σ/ϵ
+
+where
+E = elastic modulus
+ϵ = strain
+σ = normal stress
+
+For Aluminum 6061:
+
+E = 68.9 GPa
+
+The stiffness analysis was represented using multiview sketches to show how the bracket and linkage respond to the applied loading. These sketches help communicate the expected deformation direction and identify the portions of the geometry that contribute most strongly to the overall stiffness.
+
+The stiffness evaluation was considered in both the vertical and horizontal directions because the linkage contains both vertical and horizontal components. The lB dimensions of 1.400 upward and 1.036 horizontally were therefore included when establishing the geometry used for the analysis.
+
+__Parametric CAD Model__
+
+After establishing the engineering requirements, the bracket was modeled parametrically in CAD. The purpose of the parametric model is to ensure that important dimensions can be changed without rebuilding the entire model.
+
+The primary sketches were fully dimensioned and constrained so that the geometry remained consistent when dimensions were modified. Features such as holes, extrusions, fillets, and other geometric details were incorporated into the model based on the assigned bracket design.
+
+The parametric approach also makes the model easier to revise if the stress or stiffness analysis indicates that a geometric change is necessary.
+
+__Engineering Drawing__
+
+The final CAD model was used to create a detailed engineering drawing. The drawing communicates the dimensions and manufacturing information necessary to reproduce the bracket.
+
+The drawing includes the appropriate multiview representation of the part, dimensions for critical features, and other required drawing information. The views were selected to clearly communicate the geometry without relying on a three-dimensional model alone.
+
+The stress and stiffness multiview sketches provide additional engineering communication by showing how the bracket is expected to behave under loading.
 
 ## Decide
 

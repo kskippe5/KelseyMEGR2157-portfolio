@@ -8,17 +8,17 @@ The design is evaluated using Aluminum 6061 as the selected material. The analys
 The bracket was analyzed by first identifying the important dimensions and loading relationships within the linkage. The primary geometry used for the analysis includes:
 
 lA = 2.4964 in
-lB = 1.400 upward and 1.036 horizontal
-lC = 0.498
+lB = 1.400 in upward and 1.036 in horizontal
+lC = 0.498 in
 
-The selected material for the bracket is Aluminum 6061. The material properties used for the engineering analysis are:
+The selected material for the bracket is Aluminum 6061. The material properties used for the engineering analysis are
 
-Yield strength: Sy = 40,000psi
+Yield strength: Sy = 40,000 psi
 Elastic modulus: E = 68.9 GPa
 
 The geometry and loading were considered using the linkage configuration provided for the assignment. The linkage section was analyzed using the requirements provided in Appendix E. The dimensions of the individual members and their orientations were used to establish the loading and reaction relationships acting on the bracket.
 
-Stress Analysis
+__Stress Analysis__
 
 The bracket must withstand the forces transmitted through the linkage without exceeding the allowable stress of the selected material. The relevant loading conditions were identified from the linkage geometry and represented using free-body diagrams and multiview sketches.
 
@@ -59,7 +59,7 @@ E = elastic modulus
 ϵ = strain
 σ = normal stress
 
-For Aluminum 6061:
+For Aluminum 6061
 
 E = 68.9 GPa
 
@@ -84,7 +84,15 @@ The drawing includes the appropriate multiview representation of the part, dimen
 The stress and stiffness multiview sketches provide additional engineering communication by showing how the bracket is expected to behave under loading.
 
 ## Decide
+Aluminum 6061 was retained as the bracket material because its mechanical properties provide an appropriate combination of strength, stiffness, low density, and manufacturability for the design.
 
+The final bracket geometry was developed to satisfy the required linkage dimensions while maintaining a practical and manufacturable shape. The parametric approach was selected because it allows the design to be modified efficiently if additional analysis identifies a need for increased strength or stiffness.
+
+The critical dimensions were incorporated into the CAD model so that the linkage geometry remains consistent. The geometry associated with lA, lB, and lC was maintained as part of the overall design.
+
+The stress analysis provides a method for checking whether the bracket can withstand the applied loading without yielding, while the stiffness analysis provides a method for checking whether deformation remains acceptable. Both analyses are necessary because a design that satisfies only the strength requirement may still have excessive deflection.
+
+The final design therefore combines the required geometry, Aluminum 6061 material properties, strength considerations, stiffness considerations, and manufacturability into one parametric bracket model.
 
 ## Communicate
-
+The completed bracket design is communicated through the parametric CAD model, engineering drawing, calculations, and supporting sketches.

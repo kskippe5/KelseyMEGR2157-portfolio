@@ -42,6 +42,8 @@ where
 V = shear force
 A = shear area
 
+<img width="921" height="403" alt="IMG_6715" src="https://github.com/user-attachments/assets/2d594029-7808-4b68-b315-8fd6f89cab13" />
+
 The stress calculations were used to identify areas of the bracket that experience the greatest loading. Particular attention was given to the connection regions and areas where the geometry changes, since these locations can experience higher stresses.
 
 The material yield strength of \(40,000\ psi\) provides the strength limit used when evaluating the design. The calculated stresses must remain below the allowable stress for the design to be acceptable.
@@ -69,11 +71,16 @@ The stiffness evaluation was considered in both the vertical and horizontal dire
 
 __Parametric CAD Model__
 
+
+<img width="401" height="230" alt="Screenshot 2026-09-24 041855" src="https://github.com/user-attachments/assets/7e5625c5-7368-42ab-8956-a938187c6071" />
+
 After establishing the engineering requirements, the bracket was modeled parametrically in CAD. The purpose of the parametric model is to ensure that important dimensions can be changed without rebuilding the entire model.
 
 The primary sketches were fully dimensioned and constrained so that the geometry remained consistent when dimensions were modified. Features such as holes, extrusions, fillets, and other geometric details were incorporated into the model based on the assigned bracket design.
 
 The parametric approach also makes the model easier to revise if the stress or stiffness analysis indicates that a geometric change is necessary.
+
+<https://a360.co/4d3vZLf>
 
 __Engineering Drawing__
 
@@ -82,6 +89,8 @@ The final CAD model was used to create a detailed engineering drawing. The drawi
 The drawing includes the appropriate multiview representation of the part, dimensions for critical features, and other required drawing information. The views were selected to clearly communicate the geometry without relying on a three-dimensional model alone.
 
 The stress and stiffness multiview sketches provide additional engineering communication by showing how the bracket is expected to behave under loading.
+
+<https://a360.co/46TAEfa>
 
 ## Decide
 Aluminum 6061 was retained as the bracket material because its mechanical properties provide an appropriate combination of strength, stiffness, low density, and manufacturability for the design.
@@ -96,3 +105,8 @@ The final design therefore combines the required geometry, Aluminum 6061 materia
 
 ## Communicate
 The completed bracket design is communicated through the parametric CAD model, engineering drawing, calculations, and supporting sketches.
+
+This assignment took me roughly two and a half hours to do, since I already had most of the calculations done really early on.
+
+Final CAD model: <https://a360.co/4d3vZLf>
+Final Drawing File: <https://a360.co/46TAEfa>

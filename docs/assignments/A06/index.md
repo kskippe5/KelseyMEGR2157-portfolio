@@ -104,6 +104,8 @@ The stress analysis provides a method for checking whether the bracket can withs
 The final design therefore combines the required geometry, Aluminum 6061 material properties, strength considerations, stiffness considerations, and manufacturability into one parametric bracket model.
 
 ## Communicate
+This project taught me how to develop a parametric bracket while considering both strength and stiffness. I learned how material selection, critical dimensions, and tolerances affect the design and manufacturing process. I also gained experience creating an engineering drawing that clearly communicates the design using dimensions, tolerances, material specifications, and standard drawing conventions.
+
 The completed bracket design is communicated through the parametric CAD model, engineering drawing, calculations, and supporting sketches.
 
 This assignment took me roughly two and a half hours to do, since I already had most of the calculations done really early on.

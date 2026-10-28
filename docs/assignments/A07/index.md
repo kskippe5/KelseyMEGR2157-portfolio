@@ -102,13 +102,31 @@ The modified design will be analyzed under the same material properties, applied
 
 Design II — Preliminary Safety Factor Analysis
 
-Following the addition of a fillet underneath the main bracket body, a static stress simulation was performed to evaluate the modified geometry. The simulation produced a minimum safety factor of 0.441, which was below the required safety factor of 4.
+After adding a fillet underneath the main bracket body, I performed a static stress analysis using the same material and applied loading conditions as Design I.
 
-The lowest safety factor occurred in the region of the vertical support connecting the upper bracket body to the lower cylindrical pin. This indicated that the support remained a critical region under the applied loading conditions.
+The simulation produced a maximum von Mises stress of 624.184 MPa, a maximum displacement of 1.816 mm, and a minimum safety factor of 0.441.
 
-Additional mesh refinement is necessary before determining whether the fillet improved or reduced the structural performance compared with the original design.
+Compared with the finest-mesh results from Design I, the maximum displacement decreased by approximately 38.88%, while the maximum stress decreased by approximately 13.20%.
 
-<img width="1270" height="703" alt="Screenshot 2026-10-22 062839" src="https://github.com/user-attachments/assets/51b0130d-f5f6-4b90-bde2-eb4870b78131" />
+The greatest displacement occurred near the free end of the cylindrical pin, while the highest stresses remained concentrated around the connection between the cylindrical pin and vertical support.
+
+These preliminary results suggest that adding the fillet improved the stiffness of the bracket and may have reduced localized stress. However, the minimum safety factor remained below the required value of 4, and further mesh refinement is necessary to validate the results.
+
+<img width="1280" height="674" alt="Screenshot 2026-10-27 205950" src="https://github.com/user-attachments/assets/800b44f9-0ad1-4b27-b6ba-4c135dfff690" />
+
+<img width="1271" height="689" alt="Screenshot 2026-10-27 210007" src="https://github.com/user-attachments/assets/d56aebcf-b7d0-4d28-8410-4e5d8b22d357" />
+
+After reviewing Design II results, I refined the mesh and ran it again.
+
+<img width="1008" height="378" alt="image" src="https://github.com/user-attachments/assets/daccbfc8-51fb-40f6-94b1-0ea1c611ca51" />
+
+It seems promising since it stayed on this window for about 15 minutes. :D
+
+<img width="691" height="401" alt="image" src="https://github.com/user-attachments/assets/3b77e0c2-26dd-4d59-b4e5-3ee25a25dcf5" />
+
+dawgggg 
+
+<img width="337" height="74" alt="image" src="https://github.com/user-attachments/assets/d99ada08-7523-43b3-8af4-25c007adbd71" />
 
 Proposed Design III Modifications
 

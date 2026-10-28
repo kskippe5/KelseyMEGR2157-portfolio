@@ -118,7 +118,7 @@ These preliminary results suggest that adding the fillet improved the stiffness 
 
 After reviewing Design II results, I refined the mesh and ran it again.
 
-<img width="1008" height="378" alt="image" src="https://github.com/user-attachments/assets/daccbfc8-51fb-40f6-94b1-0ea1c611ca51" />
+<img width="584" height="388" alt="image" src="https://github.com/user-attachments/assets/c55a5d95-296d-47be-b77c-ec1ef38412c8" />
 
 It seems promising since it stayed on this window for about 15 minutes. :D
 

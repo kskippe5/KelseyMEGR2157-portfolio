@@ -128,11 +128,39 @@ dawgggg
 
 <img width="337" height="74" alt="image" src="https://github.com/user-attachments/assets/d99ada08-7523-43b3-8af4-25c007adbd71" />
 
-Proposed Design III Modifications
+Design III Modifications
 
-The third design will build upon the results of Design II. Additional geometry modifications will be selected based on the updated stress distribution, displacement, safety factor, and mass.
+For the third design iteration, I modified the bracket by increasing the thickness of the vertical support connecting the upper T-shaped mounting section to the lower cylindrical pin. An additional 0.20 inches of material was introduced using the Extrude feature in Autodesk Fusion 360.
 
-The goal will be to reduce unnecessary material while maintaining sufficient strength and stiffness.
+This modification was selected because the previous FEA simulations consistently identified the vertical support as a critical region experiencing elevated stress. Increasing its cross-sectional area was intended to improve resistance to bending, reduce deformation, and distribute the applied load more effectively.
+
+The modified design will be evaluated using static stress analysis and mesh refinement to determine whether the additional material improves structural performance. The increase in mass will also be considered when comparing the three designs.
+
+<img width="584" height="463" alt="Screenshot 2026-10-27 212257" src="https://github.com/user-attachments/assets/8bddd61b-6920-4a10-b2e8-e2874e28e2e3" />
+
+Design III Stress and Displacement Analysis
+
+<img width="1280" height="709" alt="Screenshot 2026-10-27 212936" src="https://github.com/user-attachments/assets/a4c60f96-1cc3-4ea8-a7ba-62373d35a497" />
+
+<img width="1280" height="683" alt="Screenshot 2026-10-27 212950" src="https://github.com/user-attachments/assets/2eabde98-14d3-4ed4-a02d-2494e01d0fb1" />
+
+Okay forget it it's still bending.
+
+Design IV
+
+For the fourth and FINAL design iteration, we will keep the extra-extruded vertical feature while adding on an isosceles triangle feature to connect all three figures together. 
+
+<img width="843" height="602" alt="Screenshot 2026-10-27 213611" src="https://github.com/user-attachments/assets/e69b738d-393b-4f41-8377-599d6f50822d" />
+
+<img width="1089" height="622" alt="Screenshot 2026-10-27 213628" src="https://github.com/user-attachments/assets/d74947eb-6746-4f52-ac14-1e8b0f8b45cd" />
+
+<img width="790" height="515" alt="Screenshot 2026-10-27 213800" src="https://github.com/user-attachments/assets/29ec234d-3164-4b1d-99da-61dca5329dae" />
+
+After reiterating the design with three more features (triangle support, fillet 1, and fillet 2), I re-ran the stress and displacement analysis. 
+
+<img width="1280" height="677" alt="image" src="https://github.com/user-attachments/assets/dd1413bf-6968-4368-aae8-45025fb130fe" />
+
+I believe the main factor of every design iteration not fulfilling the safety factor requirements is because of the material I used for the bracket (Aluminum 6061).
 
 ## Communicate
 
@@ -152,18 +180,89 @@ I also learned that stress concentrations can develop where structural features 
 
 Another important consideration is the selection of boundary conditions. Fixed constraints simplify the simulation but may not fully represent the physical interaction between the bracket and the rigid T-beam. Understanding these assumptions is necessary when interpreting the results.
 
-MEGR 2157 LINK FEA
+### MEGR 2157 LINK FEA
 
 As part of the additional MEGR 2157 requirements, the separate link will undergo the same finite element analysis process. Three geometry iterations will be evaluated, with mesh convergence studies performed for each design.
 
-The results will be used to compare maximum stress, displacement, safety factor, and mass while maintaining the original material selection.
+# Objective
 
-link FEA goes here stoopid
+The objective of this assignment was to evaluate the structural performance of the linkage using Finite Element Analysis (FEA) in Autodesk Fusion 360. The analysis focused on determining maximum von Mises stress, total displacement, and minimum safety factor under an applied load of 2,891.34 N. The design was evaluated against a required safety factor of 2.0, and modifications were made to improve its structural performance.
+
+# Analyze
+
+## Initial FEA Analysis
+
+<img width="1131" height="659" alt="Screenshot 2026-10-27 220502" src="https://github.com/user-attachments/assets/a5d28fbd-2722-4b4f-b0ee-8ad41a6e42ca" />
+
+A static stress simulation was performed on the initial linkage design. A pin constraint was applied at the upper hole, and a downward bearing load of 2,891.34 N was applied to the lower hole.
+
+The initial simulation produced the following results:
+
+- Maximum von Mises stress: 141.407 MPa
+- Maximum displacement: 0.819 mm
+- Minimum safety factor: 1.945
+
+The stress concentrations were primarily located around the lower hole where the bearing load was applied. The minimum safety factor of 1.945 was slightly below the required value of 2.0, indicating that the initial design did not meet the specified safety requirement.
+
+<img width="1280" height="698" alt="Screenshot 2026-10-27 221345" src="https://github.com/user-attachments/assets/3ac77be0-59b8-4416-8125-05b4282e3641" />
+
+<img width="1280" height="692" alt="Screenshot 2026-10-27 221403" src="https://github.com/user-attachments/assets/597ff57d-c3cf-46c0-a922-6f3a235676fe" />
+
+<img width="1280" height="683" alt="Screenshot 2026-10-27 221435" src="https://github.com/user-attachments/assets/e6251072-e97f-4bf8-bd9b-7abbf32da644" />
+
+## Design Iteration
+
+After reviewing the initial FEA results, the linkage geometry was modified to improve the distribution of stress throughout the component. The revised design incorporated smoother, rounded transitions around the ends of the linkage.
+
+The purpose of this modification was to reduce stress concentrations and improve the minimum safety factor without changing the applied loading conditions.
+
+<img width="1280" height="703" alt="Screenshot 2026-10-27 222239" src="https://github.com/user-attachments/assets/50ac771b-64ef-45ad-aac3-ca2a1fed8a75" />
+
+## Second FEA Analysis
+
+A second static stress simulation was performed using the revised linkage geometry under the same applied load.
+
+The second simulation produced the following results:
+
+- Maximum von Mises stress: 110.409 MPa
+- Maximum displacement: 4.241 mm
+- Minimum safety factor: 2.491
+
+The revised geometry reduced the maximum stress and increased the minimum safety factor above the required value of 2.0.
+
+However, the maximum displacement increased significantly, indicating a reduction in overall stiffness or a change in deformation behavior. Further evaluation would be necessary to determine whether the displacement is acceptable for the intended application.
+
+<img width="1280" height="714" alt="Screenshot 2026-10-27 222552" src="https://github.com/user-attachments/assets/7f401d00-581e-493a-a371-72bad94c42fd" />
+
+<img width="1280" height="724" alt="Screenshot 2026-10-27 222652" src="https://github.com/user-attachments/assets/5fb92127-cd90-4c3f-89aa-abc418676025" />
+
+<img width="1280" height="662" alt="Screenshot 2026-10-27 222702" src="https://github.com/user-attachments/assets/7469a0ed-e53b-42eb-99ec-57f7a7e85ff9" />
+
+# Decide
+
+Based on the simulation results, the revised linkage design was selected because it satisfied the required minimum safety factor of 2.0.
+
+The redesign decreased maximum von Mises stress by approximately 21.92% and increased the minimum safety factor by approximately 28.07%.
+
+Although the revised design performed better in terms of stress and safety factor, the increased displacement presents a potential concern. The revised design is therefore acceptable based on the safety factor requirement, pending verification of displacement limits and mesh convergence.
+
+# Communicate
+
+The FEA simulations demonstrated how relatively small geometric modifications can significantly affect the structural behavior of a mechanical component.
+
+The initial design failed to meet the required safety factor, while the revised design achieved a minimum safety factor of 2.491.
+
+The results also demonstrated the importance of evaluating multiple performance criteria. Although stress decreased and safety factor increased, the revised design experienced greater displacement.
+
+## Lessons Learned
+
+This assignment reinforced the importance of using FEA to identify stress concentrations and evaluate design modifications. I learned that improving one aspect of a design does not necessarily improve its overall performance, and that both strength and stiffness must be considered when evaluating a mechanical component.
 
 Time Spent
 
-The total time spent on this assignment was around 3 hours, even though I didn't finish it. Please forgive me.
+The total time spent on this assignment was roughly four hours, dedicating the most time to the bracket analysis. Aluminum will be the death of me.
 
 CAD Files
 
 <https://a360.co/4d3vZLf>
+

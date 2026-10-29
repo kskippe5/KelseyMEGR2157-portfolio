@@ -1,6 +1,6 @@
 # MEGR 2156 & 2157 — Gearbox Design and Assembly
 
-## O — Objective
+## Objective
 
 The objective of this project was to design, model, assemble, and analyze a functional gearbox using Autodesk Fusion. My gearbox consists of an input shaft, output shaft, two spur gears, a two-piece housing, and two journal bearings.
 
@@ -12,7 +12,7 @@ My overall goal was to develop a gearbox design that could be assembled, manufac
 
 ---
 
-## A — Analyze
+## Analyze
 
 ### 1. Gearbox Design Specifications
 
@@ -314,7 +314,7 @@ I also needed to maintain the proper center distance between the shafts so that 
 
 ---
 
-## D — Decide
+## Decide
 
 ### Gear and Shaft Selection
 
@@ -360,7 +360,7 @@ Based on this result, I retained my preliminary assembly configuration while con
 
 ---
 
-## C — Communicate
+## Communicate
 
 ### Final Design Summary
 

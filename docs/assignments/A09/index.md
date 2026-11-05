@@ -29,15 +29,15 @@ Unknown values:
 - Shaft surface velocity
 - Bearing PV value
 
-[Insert handwritten knowns and unknowns here.]
+<img width="2234" height="1795" alt="IMG_7591" src="https://github.com/user-attachments/assets/d495a881-60bb-4889-b5c3-881d7dbda6a1" />
 
-[Insert handwritten pulley system free-body diagram here.]
+<img width="2203" height="1992" alt="IMG_7592" src="https://github.com/user-attachments/assets/bb722de1-ab3e-481f-8317-2cab5b2c5fbe" />
 
 I first analyzed the forces acting on the belt. Using the initial tension and the assumed operating tension difference, I calculated a tight-side tension of 7.196 lbf and a loose-side tension of 2.804 lbf. These values gave a transmitted torque of 6.588 lbf·in.
 
 The combined belt tensions were approximately 10 lbf, which I used as the radial load for my preliminary bearing analysis.
 
-[Insert handwritten belt tension and torque calculations here.]
+<img width="2498" height="4010" alt="IMG_7594" src="https://github.com/user-attachments/assets/14a3384a-1ab4-44e0-a960-92920d4c79ad" />
 
 I then determined the required belt dimensions. I selected a 5/16-inch round polyurethane belt with a diameter of 0.3125 inches. The calculated maximum tensile stress was approximately 93.8 psi, giving a tensile factor of safety of 5.02.
 
@@ -45,9 +45,11 @@ Using an effective pulley diameter of 2.6875 inches and a center distance of 5 i
 
 The belt length and cross-section were used to create the belt geometry in Fusion 360. A final commercial belt selection would require confirming the available McMaster-Carr size and its installed tension.
 
-[Insert handwritten belt diameter, stress, factor of safety, and circumference calculations here.]
+<img width="1608" height="1258" alt="IMG_7593" src="https://github.com/user-attachments/assets/8113a66d-a6f0-4a98-8e1a-4c9adf843997" />
 
-[Insert picture of belt path sketch in Fusion 360 here.]
+<img width="1278" height="623" alt="Screenshot 2026-11-04 175826" src="https://github.com/user-attachments/assets/06181d97-3b99-48bd-bedf-e3b1521c350c" />
+
+I did the belt after the frame and the shafts, whoops!
 
 Next, I calculated the minimum shaft diameter using AISI 1060 hardened steel. I used an assumed yield strength of 75,000 psi and a required factor of safety of 3.
 
@@ -55,9 +57,9 @@ The preliminary torsional calculation gave a minimum shaft diameter of approxima
 
 The actual shaft diameter in my Fusion 360 model was 0.37375 inches to provide clearance inside the bearing bore. The preliminary torsional factor of safety was approximately 68. This result does not include shaft bending, which would need to be evaluated for a complete strength analysis.
 
-[Insert handwritten shaft diameter and factor of safety calculations here.]
+<img width="2655" height="4481" alt="IMG_7595" src="https://github.com/user-attachments/assets/5c43c555-5be9-4676-ba38-1e377f132139" />
 
-[Insert picture of drive and driven shafts in Fusion 360 here.]
+<img width="1278" height="618" alt="Screenshot 2026-11-04 174337" src="https://github.com/user-attachments/assets/8b5e8756-b6e3-43cf-8f3a-11ef99b8c2be" />
 
 I then analyzed the journal bearings. I selected oil-impregnated sintered bronze bearings with an inside diameter of 0.375 inches, an outside diameter of 0.500 inches, and a length of 0.250 inches.
 
@@ -65,15 +67,15 @@ Using an assumed radial load of 10 lbf per bearing, I calculated a bearing press
 
 These values were below the reference bearing limits used in my preliminary analysis. I selected sintered bronze because it is commonly used for lubricated rotating shaft applications. The final bearing specifications would need to be confirmed using the manufacturer's data.
 
-[Insert handwritten journal bearing pressure, velocity, and PV calculations here.]
+<img width="1934" height="4814" alt="IMG_7598" src="https://github.com/user-attachments/assets/d8e557b0-39a7-41df-83fd-d44d47727636" />
 
-[Insert picture of journal bearings in Fusion 360 here.]
+<img width="890" height="430" alt="Screenshot 2026-11-04 182140" src="https://github.com/user-attachments/assets/67b21493-e27f-4016-84c9-dbe1d10a31f0" />
 
 Finally, I designed the supporting frame using Aluminum 6061-T6. The frame was 7 inches long, 1.5 inches wide, and 0.5 inches thick. I added two raised bearing supports with 0.500-inch holes to hold the journal bearings.
 
 The supports were positioned 5 inches apart to maintain the required shaft center distance.
 
-[Insert picture of frame dimensions in Fusion 360 here.]
+<img width="1278" height="623" alt="Screenshot 2026-11-04 173842" src="https://github.com/user-attachments/assets/1748ac7e-2581-4544-bc5b-90ebbac271f2" />
 
 **Decide**
 
@@ -97,7 +99,7 @@ The sintered bronze bearings were selected because the calculated pressure, velo
 
 I chose Aluminum 6061-T6 for the supporting frame because it is lightweight, strong, and suitable for mechanical structures.
 
-[Insert picture of selected materials and component dimensions here.]
+<img width="1280" height="608" alt="Screenshot 2026-11-04 175341" src="https://github.com/user-attachments/assets/bb109cf3-ab31-44fd-87fc-4927fe8c6fdf" />
 
 **Communicate**
 
@@ -111,21 +113,23 @@ To create the belt, I sketched a closed path around both pulleys using two semic
 
 I modeled the journal bearings using concentric circles and extruded each bearing 0.250 inches into its support. I also extended both shafts into their bearings to represent their installed positions.
 
-[Insert picture of pulley and groove geometry here.]
+<img width="1273" height="619" alt="Screenshot 2026-11-04 175041" src="https://github.com/user-attachments/assets/2ee7f247-f586-471f-bdcc-781425b848e2" />
 
-[Insert picture of belt sweep in Fusion 360 here.]
-
-[Insert picture of journal bearing installation here.]
+<img width="1280" height="686" alt="Screenshot 2026-11-04 181731" src="https://github.com/user-attachments/assets/442b9c34-6f97-4f1c-a452-c9c03be1e177" />
 
 The completed model contains nine separate bodies: the frame, two shafts, two pulleys, the polyurethane belt, and two journal bearings.
 
+<img width="231" height="516" alt="Screenshot 2026-11-04 182056" src="https://github.com/user-attachments/assets/595ca51d-2695-4e58-9956-e4b622b76445" />
+
 I assigned materials and appearances to distinguish the different components and make the assembly easier to understand.
 
-[Insert picture of completed pulley system from an isometric view here.]
+<img width="1280" height="620" alt="Screenshot 2026-11-04 182422" src="https://github.com/user-attachments/assets/a209acda-6a69-4053-9483-dc9a9716da7f" />
 
-[Insert picture of completed pulley system from a top view here.]
+<img width="1278" height="623" alt="image" src="https://github.com/user-attachments/assets/e68c839b-edf8-47dd-be77-bf8b5aa1ba05" />
 
 The final CAD model shows how the pulleys, belt, shafts, bearings, and supporting frame fit together. The calculations provided preliminary support for the component dimensions and material selections.
+
+Final Cad Model Link: <https://a360.co/4zEsEv2>
 
 **Lessons Learned**
 
@@ -139,3 +143,4 @@ This assignment helped me connect engineering calculations with CAD modeling and
 
 Time Spent
 
+In total, I spent about 4 hours working on this assignment. Mostly just from writing out all of the calculations and figuring out how the heck to offset the plane for the belt to sit on. This one was really fun!

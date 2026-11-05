@@ -1,5 +1,5 @@
 # A9 – Pulleys
-**Objective**
+***Objective***
 
 The objective of this assignment was to design a pulley system that transfers rotational power between two parallel shafts. The system needed to operate between 1000 and 2000 RPM, have a center distance between 4 and 6 inches, and maintain a static belt tension between 4 and 6 lbf. The design also required a polyurethane belt, properly sized shafts, journal bearings, and a supporting frame. The required factor of safety was 3.
 

@@ -1,5 +1,5 @@
 # A9 – Pulleys
-***Objective***
+## Objective
 
 The objective of this assignment was to design a pulley system that transfers rotational power between two parallel shafts. The system needed to operate between 1000 and 2000 RPM, have a center distance between 4 and 6 inches, and maintain a static belt tension between 4 and 6 lbf. The design also required a polyurethane belt, properly sized shafts, journal bearings, and a supporting frame. The required factor of safety was 3.
 
@@ -7,7 +7,7 @@ I used engineering calculations to determine the appropriate dimensions and mate
 
 For my design, I selected two 3-inch-diameter pulleys with a center distance of 5 inches. I used an operating speed of 1500 RPM and an initial belt tension of 5 lbf.
 
-**Analyze**
+## Analyze
 
 I began by identifying the known values and unknown values for the pulley system.
 
@@ -77,7 +77,7 @@ The supports were positioned 5 inches apart to maintain the required shaft cente
 
 <img width="1278" height="623" alt="Screenshot 2026-11-04 173842" src="https://github.com/user-attachments/assets/1748ac7e-2581-4544-bc5b-90ebbac271f2" />
 
-**Decide**
+## Decide
 
 After completing my calculations, I selected the final dimensions and materials for the pulley system.
 
@@ -101,7 +101,7 @@ I chose Aluminum 6061-T6 for the supporting frame because it is lightweight, str
 
 <img width="1280" height="608" alt="Screenshot 2026-11-04 175341" src="https://github.com/user-attachments/assets/bb109cf3-ab31-44fd-87fc-4927fe8c6fdf" />
 
-**Communicate**
+## Communicate
 
 I created the pulley system in Autodesk Fusion 360 using the dimensions and materials selected during my analysis.
 
@@ -129,7 +129,7 @@ I assigned materials and appearances to distinguish the different components and
 
 The final CAD model shows how the pulleys, belt, shafts, bearings, and supporting frame fit together. The calculations provided preliminary support for the component dimensions and material selections.
 
-Final Cad Model Link: <https://a360.co/4zEsEv2>
+**Final Cad Model Link**: <https://a360.co/4zEsEv2>
 
 **Lessons Learned**
 

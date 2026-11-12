@@ -39,7 +39,7 @@ I documented the simulation setup, boundary conditions, and FEA results using sc
 
 ### Lessons Learned
 
-Through this assignment, I learned how to apply axial loading and boundary conditions in SolidWorks Simulation to evaluate the structural behavior of a mechanical component. I also gained experience interpreting stress and displacement results and understanding how changes in geometry can affect the performance of a design.
+Through this assignment, I learned how to apply axial loading and boundary conditions in SolidWorks Simulation to evaluate the structural behavior of a mechanical component. I also gained experience interpreting stress and displacement results and understanding how changes in geometry can affect the performance of a design. I learned that I should keep using Fusion.
 
 ### Time Spent
 
